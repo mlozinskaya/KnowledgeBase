@@ -41,10 +41,11 @@ submit, rest - для форм
 
     <img src="img/example.png">
 
+// вставить картинку //
+
 ---
 
 #### link
-// вставить картинку //
 
     <link rel="..." href="...">
 
@@ -63,8 +64,31 @@ target="_blank" - открыть ссылку в новой вкладке
 
     <form action="..." method="..."> </form>
 
-action - адрес, куда будут отправлены данные
+action - адрес, куда будут отправлены данные <br>
 method - метод отправки (GET, POST)
 
 ---
 
+#### input
+
+    <input type="...">
+
+Типы полей ввода:
+* text
+* email
+* password
+* number
+* tel
+
+<br>
+
+Многострочный текст:
+
+    <textarea> ... </textarea>
+
+Текстовая метка:
+
+    <label for="name"> ... </label>
+    <input id="name" type="text"> 
+
+связывается с полем ввода атрибутом for (вводится id элемента)
