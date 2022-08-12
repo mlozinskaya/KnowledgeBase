@@ -92,3 +92,17 @@ method - метод отправки (GET, POST)
     <input id="name" type="text"> 
 
 связывается с полем ввода атрибутом for (вводится id элемента)
+
+---
+
+### select
+
+    <select>
+        <option>Январь</option>
+        <option>Февраль</option>
+        ...
+    </select>
+
+Выбор нескольких вариантов:
+
+    <select multiple> ... </select>
