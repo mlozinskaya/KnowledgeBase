@@ -1,4 +1,4 @@
-# Основы HTML (кратко ((очень)))
+# Основы HTML (кратко)
 
 ### Теги
 
@@ -17,17 +17,54 @@
 
 ---
 
-#### Атрибуты тегов
+### Атрибуты тегов
+---
+#### Button
 
-    <Button disabled> ... </Button>
+    <Button disabled type="..."> ... </Button>
 
-disabled - логический атрибут
+disabled - логический атрибут <br>
+type - тип кнопки 
+
+Типы кнопок:
+
+* button
+* submit  
+* reset 
+
+submit, rest - для форм
+<br>
+
+---
+
+#### img
 
     <img src="img/example.png">
 
+---
+
+#### link
 // вставить картинку //
 
     <link rel="..." href="...">
 
 rel - тип внешнего файла (стиль, иконка...) <br>
 href - путь
+
+---
+
+#### a
+    <a href="..." target="_blank">...</a>
+target="_blank" - открыть ссылку в новой вкладке
+
+---
+
+#### form
+
+    <form action="..." method="..."> </form>
+
+action - адрес, куда будут отправлены данные
+method - метод отправки (GET, POST)
+
+---
+
